@@ -1,6 +1,6 @@
 import pyautogui
 
-# Posição de algo - use o mouseInfor
+# Posição de algo - use o mouseInfor 
 # Fazer algo com essa posição
 
 pyautogui.moveTo(935,456,duration=2) # estava brincando com oque aprendi.
