@@ -9,7 +9,7 @@ print(f'Você digitou {email}')
 # Confirmar se algo deve ou não acontecer
 resposta = pyautogui.confirm(text='Continuar rodando nossa automação?',title='Confirmação',buttons=['sim','não','cancelar'])
 if resposta == 'sim':
-    print('continuanndo automação')
+    print('continuando automação')
 elif resposta == 'não':
     print('encerrando automação')
 else:
