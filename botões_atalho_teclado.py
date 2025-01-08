@@ -18,3 +18,4 @@ sleep(1)
 pyautogui.press('tab')
 # Apertar space
 pyautogui.press('space')
+er
