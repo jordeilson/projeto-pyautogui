@@ -8,8 +8,11 @@
 7) Depois de ter feito isso, crie uma alerta que diz "VOCÊ TERMINOU"'''
 import pyautogui
 import pyperclip
+import webbrowser
 from time import sleep
 
+webbrowser.open('https://cursoautomacao.netlify.app/')
+sleep(2)
 pyautogui.moveTo(1067,284,duration=2)
 pyautogui.scroll(-2100)
 pyautogui.click(785,321,duration=2)
